@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_vs_bloc/common/movie_state.dart';
-import 'package:riverpod_vs_bloc/network/repository.dart';
-import 'package:riverpod_vs_bloc/riverpod/repository_provider.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_state.dart';
+import 'package:riverpod_vs_bloc/basic/network/repository.dart';
+import 'package:riverpod_vs_bloc/basic/riverpod/repository_provider.dart';
 
 final movieNotifierProvider = StateNotifierProvider<MovieNotifier, MovieState>(
   (ref) => MovieNotifier(ref.watch(movieRepositoryProvider)),

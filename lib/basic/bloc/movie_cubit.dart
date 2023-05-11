@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:riverpod_vs_bloc/common/movie_state.dart';
-import 'package:riverpod_vs_bloc/network/repository.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_state.dart';
+import 'package:riverpod_vs_bloc/basic/network/repository.dart';
 
 class MovieCubit extends Cubit<MovieState> {
   final MovieRepository movieRepository;

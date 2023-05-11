@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_vs_bloc/common/movie_state.dart';
-import 'package:riverpod_vs_bloc/riverpod/future_provider.dart';
-import 'package:riverpod_vs_bloc/riverpod/state_notifier.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_state.dart';
+import 'package:riverpod_vs_bloc/basic/riverpod/future_provider.dart';
+import 'package:riverpod_vs_bloc/basic/riverpod/state_notifier.dart';
 
 class MovieListStateNotifierWidget extends ConsumerWidget {
   const MovieListStateNotifierWidget({super.key});

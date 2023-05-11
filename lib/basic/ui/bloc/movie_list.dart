@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:riverpod_vs_bloc/bloc/movie_bloc.dart';
-import 'package:riverpod_vs_bloc/bloc/movie_cubit.dart';
-import 'package:riverpod_vs_bloc/common/movie_state.dart';
-import 'package:riverpod_vs_bloc/network/repository.dart';
+import 'package:riverpod_vs_bloc/basic/bloc/movie_bloc.dart';
+import 'package:riverpod_vs_bloc/basic/bloc/movie_cubit.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_state.dart';
+import 'package:riverpod_vs_bloc/basic/network/repository.dart';
 
 class MovieListBlocWidget extends StatelessWidget {
   const MovieListBlocWidget({super.key});

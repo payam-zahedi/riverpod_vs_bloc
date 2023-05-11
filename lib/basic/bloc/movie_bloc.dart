@@ -1,7 +1,7 @@
 // movie bloc
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:riverpod_vs_bloc/common/movie_event.dart';
-import 'package:riverpod_vs_bloc/common/movie_state.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_event.dart';
+import 'package:riverpod_vs_bloc/basic/common/movie_state.dart';
 
 import '../network/repository.dart';
 
